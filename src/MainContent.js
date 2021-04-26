@@ -2,7 +2,7 @@ import Item from "./Item";
 
 const MainContent = () => {
   return (
-    <div>
+    <div className="maincontent">
       <Item />
     </div>
   );

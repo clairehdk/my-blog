@@ -1,7 +1,11 @@
 import AboutMe from "./AboutMe";
 
 const SideContent = (props) => {
-  return <AboutMe />;
+  return (
+    <div>
+      <AboutMe />
+    </div>
+  );
 };
 
 export default SideContent;

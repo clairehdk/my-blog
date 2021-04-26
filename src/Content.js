@@ -3,7 +3,7 @@ import SideContent from "./SideContent";
 
 const Content = () => {
   return (
-    <div>
+    <div className="content">
       <MainContent />
       <SideContent />
     </div>
