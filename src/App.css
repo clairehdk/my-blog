@@ -2,6 +2,7 @@
 
 body {
   background-color: #e5e5e5;
+  font-family: "Roboto";
 }
 
 .container {
@@ -23,6 +24,7 @@ body {
 .header h2 {
   font-size: 25px;
   padding-top: 10px;
+  font-weight: 300;
 }
 
 /* Nav */
@@ -32,6 +34,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 15px;
+  font-weight: 300;
 }
 .nav div:first-child a {
   margin-right: 40px;
@@ -67,6 +70,7 @@ body {
 }
 .item span {
   font-size: 18px;
+  font-weight: 300;
 }
 .item .picture {
   width: 100%;
@@ -116,8 +120,14 @@ body {
   text-align: center;
   margin-top: 20px;
   padding: 30px;
+  font-weight: lighter;
 }
 .footer span {
+  font-weight: bold;
+}
+.footer a {
+  /* text-decoration: none; */
+  color: black;
   font-weight: bold;
 }
 
